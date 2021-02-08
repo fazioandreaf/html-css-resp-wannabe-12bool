@@ -33,13 +33,11 @@ img {
     padding: 1% 2%;
   }
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width:992px) {
   span {
     font-size: 1.2em;
   }
   h3 {
     font-size: 1.4em;
   }
-}
-@media screen and (max-width:767px) {
 }
