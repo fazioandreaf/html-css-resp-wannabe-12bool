@@ -1,3 +1,6 @@
+body {
+  font-family: "Ubuntu",sans-serif;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -5,24 +8,23 @@
 }
 [class*="col"] {
   text-align: center;
+  padding: 1%;
 }
-/* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
+img {
+  height: 200px;
 }
-.box-radius {
-  background-color: #428bca;
-  border-radius: 50%;
-}
-
-/* COMMON */
 .grey {
   background-color: #f9f9f9;
 }
-
-img {
-  height: 200px;
+@media screen and (min-width:992px) {
+  .why .col-lg-12{
+    padding: 1% 8%;
+  }
+}
+.why .col-lg-12:nth-child(2), .why .col-lg-12:nth-child(3) {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.why .box-radius {
+  background-color: #428bca;
+  border-radius: 50%;
 }
